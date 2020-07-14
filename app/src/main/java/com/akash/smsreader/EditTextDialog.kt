@@ -42,6 +42,7 @@ class EditTextDialog : DialogFragment() {
         this.tags = view.findViewById(R.id.tagsText)
         this.tags.hint = tagsHint
         this.info = view.findViewById(R.id.infoText)
+        this.info.text = infoHint
 
         val builder = AlertDialog.Builder(context!!)
             .setTitle(title)
